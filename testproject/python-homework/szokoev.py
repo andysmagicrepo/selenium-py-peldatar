@@ -5,7 +5,7 @@ nem_szokoev = bool(ev % 100)
 print(szokoev1)
 print(szokoev2)
 print(nem_szokoev)
-if (szokoev2 and nem_szokoev) or (szokoev1 and nem_szokoev) or (szokoev1 and szokoev2 and (not(nem_szokoev))):
+if (szokoev2 and nem_szokoev) or (szokoev1 and nem_szokoev) or (szokoev1 and szokoev2 and (not nem_szokoev)):
     print("A megadott év:", ev, "szökőév!")
 else:
     print("A megadott év:", ev, "Nem szökőév!")
